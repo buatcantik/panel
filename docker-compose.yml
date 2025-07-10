@@ -78,13 +78,3 @@ networks:
     ipam:
       config:
         - subnet: 172.20.0.0/16
-
-
-
-Jalanin panel :
- 
-docker-compose up -d
- 
-Bikin user buat panel nya :
- 
-docker-compose run --rm panel php artisan p:user:make
